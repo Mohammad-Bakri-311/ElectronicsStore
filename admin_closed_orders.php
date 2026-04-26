@@ -1,0 +1,5 @@
+<?php
+session_start(); require 'db_connection.php'; require_once 'helpers.php'; require_admin(); $conn=OpenCon();
+$result=$conn->query("SELECT c.order_id,u.first_name,u.email,c.total_price,c.closed_at FROM closed_orders c JOIN users u ON c.user_id=u.id ORDER BY c.closed_at DESC");
+?>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Closed Orders</title><link rel="stylesheet" href="css/style.css"></head><body><?php include 'navbar.php'; ?><div class="admin-container"><h2>Closed Orders</h2><table><tr><th>Order #</th><th>User</th><th>Email</th><th>Total</th><th>Status</th><th>Date</th><th>Details</th></tr><?php while($r=$result->fetch_assoc()):?><tr><td><?=(int)$r['order_id']?></td><td><?=e($r['first_name'])?></td><td><?=e($r['email'])?></td><td>$<?=number_format((float)$r['total_price'],2)?></td><td><span class="badge completed">Completed</span></td><td><?=e($r['closed_at'])?></td><td><a href="order_details.php?order_id=<?=(int)$r['order_id']?>">View</a></td></tr><?php endwhile;?></table></div></body></html>
