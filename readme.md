@@ -6,9 +6,9 @@ Electronics Store is a full-stack e-commerce web application built using **PHP a
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🔹 User (Customer)
+###  User (Customer)
 
 * User registration and login
 * Browse electronic products
@@ -19,7 +19,7 @@ Electronics Store is a full-stack e-commerce web application built using **PHP a
 
 ---
 
-### 🔹 Admin Panel
+###  Admin Panel
 
 * Manage products
 * Manage users
@@ -28,7 +28,7 @@ Electronics Store is a full-stack e-commerce web application built using **PHP a
 
 ---
 
-## 🗄️ Database
+##  Database
 
 The system uses a MySQL database to manage:
 
@@ -45,9 +45,9 @@ The database is designed with:
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
-### 🔹 Admin Panel
+###  Admin Panel
 
 ![Admin](screenshots/admin-dashboard.png)
 ![Admin](screenshots/admin2.png)
@@ -56,7 +56,7 @@ The database is designed with:
 
 ---
 
-### 🔹 Customer Pages
+###  Customer Pages
 
 #### Login Page
 
@@ -88,7 +88,7 @@ The database is designed with:
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * PHP
 * MySQL
@@ -99,7 +99,7 @@ The database is designed with:
 
 ---
 
-## ⚙️ How to Run the Project
+##  How to Run the Project
 
 1. Move the project folder to:
 
@@ -125,7 +125,7 @@ http://localhost/PROJECT2/
 
 ---
 
-## ⚠️ Current Limitations
+##  Current Limitations
 
 * Some features are still under development
 * UI improvements are planned
@@ -133,7 +133,7 @@ http://localhost/PROJECT2/
 
 ---
 
-## 📌 Project Highlights
+##  Project Highlights
 
 * Full-stack e-commerce system
 * Shopping cart and order workflow
@@ -143,13 +143,13 @@ http://localhost/PROJECT2/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Mohammad Bakri
 Software Engineering Student
 
 ---
 
-## 📬 Notes
+## Notes
 
 This project is part of my learning journey and is continuously being improved.
